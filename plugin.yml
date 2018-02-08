@@ -1,0 +1,17 @@
+name: DeathReview
+version: 0.1.1
+description: See the damage that killed you!
+author: iiSnipez
+website: http://bit.ly/DR_Plugin
+
+main: me.iiSnipez.DeathReview.DeathReview
+database: false
+
+commands:
+    deathreview:
+        description: Primary command for the CombatLog plugin.
+        aliases: [dr]
+permissions:
+    deathreview.reload:
+        description: Allows one to reload the configuration file's options.
+        default: op

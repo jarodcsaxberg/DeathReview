@@ -1,0 +1,24 @@
+############################################################
+# +--------- Designed and Developed by iiSnipez ---------+ #
+# +----- Consider donating: http://bit.ly/DR_Donate -----+ #
+############################################################
+
+Metrics: true
+UpdateCheck: true
+
+# How many seconds after a player takes damage should 
+# the program "monitor" for the player to take more damage?
+AlertDuration: 5
+
+# Maximum number of prior damage sources that will be stored
+# Example: Player 1 is punched by player 2 250 times. On the 251st punch,
+# the plugin will remove the very 1st punch from the recap data set
+MaximumDataStored: 250
+
+# Message formats
+Header: "&8================&6[&cDeathReview&6]&8================"
+RecapHeader: "&7Death recap for &6<name>&7."
+DamageMessage: "&7<source>: &c<amount>&7/&c<total> &7(&4<percent>%&7)"
+DamagePreventedMessage: "&7Damage taken reduced by &2<percent>%"
+HealingMessage: "&7<source>: &a<amount>&7/&a<total> &7(&2<percent>%&7)"
+Footer: "&8==========================================="
